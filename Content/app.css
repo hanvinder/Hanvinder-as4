@@ -368,3 +368,86 @@ p.social:hover{
 .fa-instagram:hover{color: #FFCC00;}
 .fa-twitter:hover{color: #FFCC00;}
 .fa-google:hover{color: #FFCC00;}
+
+
+
+#banner {
+	
+	margin: 70px auto;
+	width: 468px;
+	height: 150px;
+	position: relative;
+    background: url(../images/project1.png);
+    background-repeat: no-repeat;
+
+}
+
+#burgee img{
+	position: absolute;
+	width: 100px;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 35px;
+}
+
+#logo {
+	position: absolute;
+	margin-left: 480px;
+	margin-top: 50px;
+}
+
+
+input[type=button] {
+  display: block;
+	position: absolute;
+	margin-top: 10px;
+    margin-left: 660px;
+    height: 30px;
+    border-radius: 10%;
+    background-color:#02225d;
+    color: #fff;
+    
+}
+
+input[type=button]:hover {
+	 background-color:#fff;
+    color: #02225d;
+}
+#c1  {
+			
+			width: 240px;
+			height: 41px;
+			z-index: 1;
+			position: absolute;	
+			text-align: center;
+			margin: 12px 0px 0px 100px;
+			display: inline-block;
+		}
+
+#c2 {
+			visibility: hidden;
+			z-index: 1;
+			position: absolute;			
+			text-align: center;
+			margin: 60px 0px 0px 150px;
+			display: inline-block;
+}
+
+
+#c3 {
+			visibility: hidden;
+			z-index: 1;
+			position: absolute;			
+			text-align: center;
+			margin: 90px 0px 0px 100px;
+			display: inline-block;
+}
+
+#c4 {
+			visibility: hidden;
+			z-index: 1;
+			position: absolute;			
+			text-align: center;
+			margin: 60px 0px 0px 310px;
+			display: inline-block;
+}
