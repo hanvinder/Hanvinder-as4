@@ -374,11 +374,11 @@ p.social:hover{
 #banner {
 	
 	margin: 70px auto;
-	width: 468px;
+	width: 800px;
 	height: 150px;
 	position: relative;
-    background: url(../images/project1.png);
-    background-repeat: no-repeat;
+    background: url(../images/pic8.jpg);
+    background-repeat: cover;
 
 }
 
@@ -394,6 +394,23 @@ p.social:hover{
 	position: absolute;
 	margin-left: 480px;
 	margin-top: 50px;
+	width: 50px;
+	height: 150px
+}
+#logo img{
+	width: 100px;
+	height: 80px
+}
+#logo2 {
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 50px;
+	width: 50px;
+	height: 150px
+}
+#logo2 img{
+	width: 100px;
+	height: 80px
 }
 
 
@@ -404,27 +421,30 @@ input[type=button] {
     margin-left: 660px;
     height: 30px;
     border-radius: 10%;
-    background-color:#02225d;
-    color: #fff;
+    background-color:#ffcc00;
+    color: #000;
     
 }
 
 input[type=button]:hover {
 	 background-color:#fff;
-    color: #02225d;
+    color: #000;
 }
 #c1  {
-			
+			color: #fff;
+			font-size: 1em;
 			width: 240px;
 			height: 41px;
 			z-index: 1;
 			position: absolute;	
 			text-align: center;
-			margin: 12px 0px 0px 100px;
+			margin: 30px 0px 0px 100px;
 			display: inline-block;
 		}
 
 #c2 {
+color: #fff;
+	font-size: 1em;
 			visibility: hidden;
 			z-index: 1;
 			position: absolute;			
@@ -435,6 +455,8 @@ input[type=button]:hover {
 
 
 #c3 {
+	color: #fff;
+	font-size: 1em;
 			visibility: hidden;
 			z-index: 1;
 			position: absolute;			
@@ -444,10 +466,35 @@ input[type=button]:hover {
 }
 
 #c4 {
+	color: #fff;
 			visibility: hidden;
 			z-index: 1;
 			position: absolute;			
 			text-align: center;
 			margin: 60px 0px 0px 310px;
 			display: inline-block;
+}
+
+.banner2 {
+    width: 970px;
+		margin: -50px auto;
+}
+
+
+.slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-left: 16.5em;
+}
+
+.slider img {
+	width: 468px;
+	height: 60px;
+    position: absolute;
+    border: 1px solid #f0f0f0;
+    border-bottom: 5px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }

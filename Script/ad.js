@@ -9,3 +9,12 @@ tl.from("#c2", 0.5, {scale:.5, autoAlpha:0}, "+=0.5");
 tl.from("#c3", 0.5, {scale:.5, autoAlpha:0}, "+=0.5");
 tl.from("#c4", 0.5, {left:-140, autoAlpha:0}, "+=0.5");
 
+$(function () {
+    $('.slider img:gt(0)').hide();
+    setInterval(function () {
+            $('.slider :first-child').fadeOut(400)
+                .next('img').fadeIn(100)
+                .end().appendTo('.slider');
+        },
+        2000);
+});
